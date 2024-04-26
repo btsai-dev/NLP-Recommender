@@ -1,6 +1,10 @@
 # NLP-Recommender
 Recommendation system reliant on a user's other reviews in predicting their rating for a product.
 
+## Contributors
+* Brian Tsai - tsai209@purdue.edu
+* Ryan Shue - rshue@purdue.edu
+* Laura Zhou - lczhou@purdue.edu
 
 ## Dataset
 `Video_Games_5.json` can be downloaded from https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/ , or via this direct url: https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/Video_Games_5.json.gz
