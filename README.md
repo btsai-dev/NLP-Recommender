@@ -42,6 +42,16 @@ The relevant code to the project is located at `ML_LSTM.ipynb`.
 ## Unavailable data
 If data is unavailable, you can tryi this shared onedrive link: https://purdue0-my.sharepoint.com/:f:/g/personal/tsai209_purdue_edu/Ens8h2sboOpCqxic5Mf0lvwB7ExrT5tq90c_pfgzscqi0Q?e=y3bgER
 
+## Model Visualization
+
+![Model Visualization](https://github.com/btsai-dev/NLP-Recommender/blob/main/OverallNetwork.png?raw=true)
+
+
+## Review Module
+The Review Module component, visualized with a LSTM modeling of the text.
+
+![Review Module](https://github.com/btsai-dev/NLP-Recommender/blob/main/ReviewModule.png?raw=true)
+
 ## Transformers
 
-The transformer network is located at `ML_Transformers.ipynb`. This was an earlier iteration where a Bert Transformer instead of an LSTM was used instead to process the text data in reviews. Unfortunately, due to the complete model's 113 million parameters, limited compute and memory requirements prevented its full use. The program was tested and confirms to work a on Google Colab NVIDIA L4 Tensor core GPU, and its 24GB of memory was unable to handle batch sizes greater than four. Each epoch took around 90 minutes to complete.
+The transformer-based network is located at `ML_Transformers.ipynb`. This was an earlier iteration where a Bert Transformer instead of an LSTM was used instead to process the text data in reviews. Unfortunately, due to the complete model's 113 million parameters, limited compute and memory requirements prevented its full use. The program was tested and confirms to work a on Google Colab NVIDIA L4 Tensor core GPU, and its 24GB of memory was unable to handle batch sizes greater than four. Each epoch took around 90 minutes to complete.
